@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 $nome = (isset($_POST['nome'])) ? $_POST['nome'] : '';
@@ -6,6 +7,8 @@ $indirizzo = (isset($_POST['indirizzo'])) ? $_POST['indirizzo'] : '';
 
 ?>
 
+=======
+>>>>>>> 730560cb0afc2e44a15e56613437c49ac06f95c9
 <!doctype html>
 <html lang="en">
   <head>
@@ -14,6 +17,7 @@ $indirizzo = (isset($_POST['indirizzo'])) ? $_POST['indirizzo'] : '';
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+<<<<<<< HEAD
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   
   </head>
@@ -56,3 +60,20 @@ $indirizzo = (isset($_POST['indirizzo'])) ? $_POST['indirizzo'] : '';
     </div>
     </body>
   </html>  
+=======
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <p>ecco un paragrafo</p>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+>>>>>>> 730560cb0afc2e44a15e56613437c49ac06f95c9
